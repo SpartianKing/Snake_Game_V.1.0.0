@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -7,8 +7,8 @@
 
 <body>
 
-    <div id="score">0</div>
-    <canvas id="snakeboard" width="350" height="350"></canvas>
+    <div id="score">1500</div>
+    <canvas id="snakeboard" width="750" height="700"></canvas>
 
     <style>
         #snakeboard {
@@ -19,7 +19,7 @@
         }
 
         #score {
-            text-align: right;
+            text-align: absolute;
             font-size: 140px;
         }
     </style>
@@ -27,8 +27,8 @@
 
 <script>
     const board_border = 'black';
-    const board_background = "lightblue";
-    const snake_col = 'pink';
+    const board_background = "teal";
+    const snake_col = 'red';
     const snake_border = 'darkgreen';
 
     let snake = [
